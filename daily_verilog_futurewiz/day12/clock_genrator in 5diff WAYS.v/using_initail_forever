@@ -1,0 +1,11 @@
+module clk_gen_forever;
+ reg clk;
+ initial begin
+ clk = 0;
+ forever #10 clk = ~clk;
+ end
+ initial begin
+ $monitor(“simtime=%0t,count=%b”,$time,count);
+ #100 $finish;
+ end
+endmodule
