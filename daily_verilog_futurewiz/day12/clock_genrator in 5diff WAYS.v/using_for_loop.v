@@ -8,3 +8,7 @@ module clk_gen_for;
  end
  end
  initial begin
+$monitor(“simtime=%0t,count=%b”,$time,count);
+ #160 $finish;
+ end
+endmodule
