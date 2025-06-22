@@ -1,3 +1,4 @@
+
 module comparator_2bit_ternary (
   input [1:0] A,
   input [1:0] B,
