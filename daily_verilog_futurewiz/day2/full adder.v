@@ -22,4 +22,4 @@ wire w1,w2,w3;
   always@(a,b,cin)
   {cin,s}=a+b+cin;
 
-  end
+endmodule
