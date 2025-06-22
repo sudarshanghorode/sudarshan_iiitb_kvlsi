@@ -1,5 +1,5 @@
 
-module comparator_2bit_ternary (
+module comparator2bit(
   input [1:0] A,
   input [1:0] B,
   output A_eq_B,
